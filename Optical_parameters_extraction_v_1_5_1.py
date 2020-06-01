@@ -35,8 +35,8 @@ if os.path.exists(PATH+"\\Saved effective parameters"):
         
 
 # Defining all valuable variables 
-frequnit = 1000000000000
-lengthunit = 0.000001
+frequnit = 1000000000000 #unit of frequency used in the S-parameter files
+lengthunit = 0.000001 #unit of length used in the paragraph below
 
 # To change depending on the dimensions of the sample
 print("REMINDER: have you updated the slab thickness information for this \
